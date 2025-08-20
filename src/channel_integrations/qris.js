@@ -1,0 +1,1 @@
+module.exports={generateQR:(amount)=>({qr_code:'dummy_qr',amount})};

@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  api-gateway:
+    image: bpr-payment-gateway:latest
+    ports:
+      - "443:443"
+      - "80:80"
+  payment-processor:
+    image: bpr-payment-processor:latest
+    replicas: 3
+  cbs-integration:
+    image: bpr-cbs-integration:latest
+  mysql-master:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: strong_password
+      MYSQL_DATABASE: bpr_payment_gateway
+  redis-cluster:
+    image: redis:7-alpine

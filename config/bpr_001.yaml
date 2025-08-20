@@ -1,0 +1,41 @@
+bpr_profile:
+  bpr_id: "BPR001"
+  bpr_name: "BPR Mandiri Sejahtera"
+  license_number: "KEP-001/PB/2020"
+
+cbs_integration:
+  type: "finnet"
+  version: "v4.2"
+  connection:
+    host: "192.168.1.100"
+    port: 8080
+    username: "bpr001_api"
+    password: "encrypted_password"
+    timeout: 30
+
+payment_channels:
+  enabled_channels: ["qris", "virtual_account", "ewallet", "card"]
+  qris:
+    merchant_id: "ID1234567890123"
+    terminal_id: "BPR00101"
+  virtual_account:
+    enabled_banks: ["BCA", "BRI", "BNI"]
+  ewallet:
+    enabled_wallets: ["gopay", "ovo"]
+  card:
+    supported_cards: ["Visa", "Mastercard", "JCB"]
+
+business_rules:
+  transaction_limits:
+    min_amount: 10000
+    max_amount: 50000000
+    daily_limit: 100000000
+  operating_hours:
+    start: "06:00"
+    end: "22:00"
+    timezone: "Asia/Jakarta"
+
+notification:
+  webhook_url: "https://bpr001.com/webhook/payment"
+  email_notifications: ["admin@bpr001.com"]
+  sms_notifications: ["+6281234567890"]
