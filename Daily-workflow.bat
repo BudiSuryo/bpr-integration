@@ -3,7 +3,7 @@ SET REPO_PATH=C:\Users\SER5 PRO\bpr-integration
 SET LOGS_PATH=%REPO_PATH%\logs
 
 echo ================================
-echo BPR Integration Daily Workflow (Advanced)
+echo BPR Integration Daily Workflow (Fixed)
 echo ================================
 
 cd /d "%REPO_PATH%"
@@ -65,18 +65,17 @@ if "%STEPS%"=="3" (
     echo Adding changes to git...
     git add .
     git commit -m "Daily update: demo transactions & maintenance"
-    echo Pushing to GitHub...
+    echo Pushing changes to GitHub...
     git push
 )
 if "%STEPS%"=="4" (
     echo Adding changes to git...
     git add .
     git commit -m "Daily update: demo transactions & maintenance"
-    echo Pushing to GitHub...
+    echo Pushing changes to GitHub...
     git push
 )
 
 echo.
 echo Workflow completed successfully!
 pause
-
