@@ -1,0 +1,42 @@
+[
+  {
+    "transaction_id": "fee50bb7-241e-41b5-bb2c-98ce324bddbf",
+    "account_number": "1000248246",
+    "amount": 144423,
+    "channel": "virtual_account",
+    "status": "failed",
+    "timestamp": "2025-08-20T16:11:35.290492"
+  },
+  {
+    "transaction_id": "c3a024b7-d771-4cda-a320-b3fa3bc96bab",
+    "account_number": "1000556498",
+    "amount": 199446,
+    "channel": "qris",
+    "status": "expired",
+    "timestamp": "2025-08-20T16:11:35.290635"
+  },
+  {
+    "transaction_id": "fcc241fe-a83b-41f9-8e30-1cd585042231",
+    "account_number": "1000262315",
+    "amount": 486795,
+    "channel": "qris",
+    "status": "failed",
+    "timestamp": "2025-08-20T16:11:35.290839"
+  },
+  {
+    "transaction_id": "a2d6932d-c349-46f1-841b-c532d7b95398",
+    "account_number": "1000728359",
+    "amount": 432687,
+    "channel": "ewallet",
+    "status": "success",
+    "timestamp": "2025-08-20T16:11:35.290975"
+  },
+  {
+    "transaction_id": "fd9b7c3e-6080-4d4f-9735-4aa22c642ec3",
+    "account_number": "1000799022",
+    "amount": 350951,
+    "channel": "virtual_account",
+    "status": "expired",
+    "timestamp": "2025-08-20T16:11:35.291130"
+  }
+]

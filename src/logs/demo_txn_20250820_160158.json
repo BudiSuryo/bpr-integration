@@ -1,0 +1,42 @@
+[
+  {
+    "transaction_id": "87f29d1e-033e-45d3-8217-68ffac1c28b3",
+    "account_number": "1000311686",
+    "amount": 92250,
+    "channel": "ewallet",
+    "status": "success",
+    "timestamp": "2025-08-20T16:01:58.135157"
+  },
+  {
+    "transaction_id": "820a80c5-4a2e-4413-a990-4fdb17deee62",
+    "account_number": "1000949636",
+    "amount": 494542,
+    "channel": "virtual_account",
+    "status": "success",
+    "timestamp": "2025-08-20T16:01:58.136059"
+  },
+  {
+    "transaction_id": "5b90d38d-ea16-4426-bd77-8d19b6de9911",
+    "account_number": "1000283581",
+    "amount": 249550,
+    "channel": "ewallet",
+    "status": "success",
+    "timestamp": "2025-08-20T16:01:58.136133"
+  },
+  {
+    "transaction_id": "43d43ba5-816a-4979-aa70-8009b3544c3b",
+    "account_number": "1000859627",
+    "amount": 290811,
+    "channel": "virtual_account",
+    "status": "success",
+    "timestamp": "2025-08-20T16:01:58.136280"
+  },
+  {
+    "transaction_id": "6ff3be2b-16b6-423a-b91e-d5c66c191e59",
+    "account_number": "1000937081",
+    "amount": 71282,
+    "channel": "ewallet",
+    "status": "success",
+    "timestamp": "2025-08-20T16:01:58.136344"
+  }
+]
