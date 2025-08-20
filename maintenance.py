@@ -4,9 +4,10 @@ import shutil
 from datetime import datetime
 
 # ===== CONFIG =====
-REPO_PATH = r"C:\path\to\bpr-integration"  # ganti sesuai path kamu
+REPO_PATH = r"C:\Users\SER5 PRO\bpr-integration"
 LOGS_PATH = os.path.join(REPO_PATH, "logs")
 BACKUP_PATH = os.path.join(REPO_PATH, "backup_logs")
+
 
 # Daily / Harian
 def daily_check():
